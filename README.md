@@ -4,10 +4,14 @@ A simple tool to collate a list of youtube subscriptions from the command line a
 # INSTALLATION
 
 Install the required dependencies:
-  ytsubs
-  python-lxml
-  python-texttable
-  mpv
+    
+    ytsubs
+    
+    python-lxml
+    
+    python-texttable
+    
+    mpv
   
 Save ytsp.py to a location of your choice
 
@@ -15,10 +19,14 @@ Save ytsp.py to a location of your choice
 
 Run ytsp.py from a terminal
 On first run you will see a setup prompt; fill in the required information:
-  Username=your youtube username
-  API Key=your youtube api key (see ytsubs documentation to find out how to get one)
-  Collect videos from previous X days=number of days to collect videos from
-  Maximum video height=maximum video resolution to play based on video height in pixels (e.g. 1080,720,360,etc.)
+  
+    Username=your youtube username
+  
+    API Key=your youtube api key (see ytsubs documentation to find out how to get one)
+  
+    Collect videos from previous X days=number of days to collect videos from
+  
+    Maximum video height=maximum video resolution to play based on video height in pixels (e.g. 1080,720,360,etc.)
   
 Once you have entered the necessary information the subscriptions list will begin to load. This will take a few minutes if you as the youtube v3 API is very inefficient at dealing with these requests.
 
